@@ -65,6 +65,16 @@ main() {
     curl -L -o MapleMono.zip https://github.com/subframe7536/maple-font/releases/download/v7.9/MapleMono-TTF.zip
     unzip -o Maple-NF.zip -d ~/.local/share/fonts
     unzip -o MapleMono.zip -d ~/.local/share/fonts
+    curl -L -o $HOME/Wallpapers/Wall-1.png https://w.wallhaven.cc/full/k8/wallhaven-k82p6d.png
+    curl -L -o $HOME/Wallpapers/Wall-2.png https://w.wallhaven.cc/full/w5/wallhaven-w5m62x.png
+    curl -L -o $HOME/Wallpapers/Wall-3.png https://w.wallhaven.cc/full/xe/wallhaven-xepp7d.jpg
+    curl -L -o $HOME/Wallpapers/Wall-4.png https://w.wallhaven.cc/full/ml/wallhaven-ml2191.jpg
+    curl -L -o $HOME/Wallpapers/Wall-5.png https://w.wallhaven.cc/full/5g/wallhaven-5g96j3.jpg
+    curl -L -o $HOME/Wallpapers/Wall-6.png https://w.wallhaven.cc/full/3q/wallhaven-3q5k8y.png
+    curl -L -o $HOME/Wallpapers/Wall-7.png https://w.wallhaven.cc/full/zp/wallhaven-zpo7dy.png
+    curl -L -o $HOME/Wallpapers/Wall-8.png https://w.wallhaven.cc/full/9d/wallhaven-9djdkw.png
+    curl -L -o $HOME/Wallpapers/Wall-9.png https://w.wallhaven.cc/full/kx/wallhaven-kx99jm.png
+    curl -L -o $HOME/Wallpapers/Wall-10.png https://w.wallhaven.cc/full/7j/wallhaven-7jjo5e.jpg
     flatpak install -y flathub org.vinegarhq.Sober
     sudo systemctl enable --now bluetooth.service
     systemctl --user enable --now pipewire.service pipewire-pulse.service wireplumber.service
